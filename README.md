@@ -6,7 +6,7 @@ The robots that we utilize have a set of three infrared (IR) emitter and detecto
 I wrote a total of four methods to be used with this lab functionality. An example of how to properly use these methods can be seen in the file "example.c" in the Lab 7 repository.
 
 - void initSensors()
-  This method enables the interrupt and sets the clock for the robot
+  * This method enables the interrupt and sets the clock for the robot
 
 - unsigned int frontSensor()
 
