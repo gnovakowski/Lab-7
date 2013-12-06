@@ -5,16 +5,16 @@ The robots that we utilize have a set of three infrared (IR) emitter and detecto
 
 I wrote a total of four methods to be used with this lab functionality. 
 
-- void initSensors()
+- initSensors()
   * This method enables the interrupt and sets the clock for the robot.
 
-- unsigned int frontSensor()
+- frontSensor()
   * This method contains the functionality required to enage the sensor at the front of the robot.
 
-- unsigned int leftSensor()
+- leftSensor()
   * This method contains the functionality required to enage the sensor on the left side of the robot.
 
-- unsigned int rightSensor()
+- rightSensor()
   * This method contains the functionality required to enage the sensor on the right side of the robot.
 
 An example of how to properly use these methods can be seen in the file "example.c" in the Lab 7 repository.
